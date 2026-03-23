@@ -9,8 +9,8 @@ activityCompose = "1.13.0"
 kotlin = "2.2.10"
 composeBom = "2024.09.00"
 nav3Core = "1.0.0"
-kotlinxSerializationCore = "1.8.1"
-kotlinSerialization = "2.2.21"
+kotlinxSerializationCore = "1.10.0"
+kotlinSerialization = "2.3.20"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -34,7 +34,6 @@ kotlinx-serialization-core = {module = "org.jetbrains.kotlinx:kotlinx-serializat
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 jetbrains-kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlinSerialization"}
 
