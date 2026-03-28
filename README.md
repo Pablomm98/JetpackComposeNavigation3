@@ -15,6 +15,7 @@ kotlinx-serialization-core = {module = "org.jetbrains.kotlinx:kotlinx-serializat
 ```
 Y sus correspondientes versiones (son las últimas versiones disponibles en el momento de creación de la app)
 ```gradle
+nav3Core = "1.0.0"
 kotlinxSerializationCore = "1.10.0"
 kotlinSerialization = "2.3.20"
 ```
